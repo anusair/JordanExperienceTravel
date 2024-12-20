@@ -42,7 +42,7 @@ export default function Home() {
           }}
         >
           <div className="bg-black w-full h-full block
-          absolute top-0 left-0 bg-gradient-to-br from-primaryColor to-secondaryColor opacity-50"/>
+          absolute top-0 left-0 bg-gradient-to-br from-primaryColor to-secondaryColor opacity-30"/>
             <div  style={{
               position: "absolute",
               top: 0,
@@ -51,8 +51,8 @@ export default function Home() {
               bottom: 0,
               backgroundImage: "url('/images/JarashAI.webp')",
               backgroundSize: "cover",
-              backgroundAttachment: "fixed",
-              // filter: "blur(2px)",
+              backgroundAttachment: "fixed",  
+              filter: "blur(2px)",
               zIndex: -1, 
             }}
             className="before:bg-black before:absolute top-0 left-0 w-full h-full">
