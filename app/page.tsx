@@ -42,7 +42,7 @@ export default function Home() {
           }}
         >
           <div className="bg-black w-full h-full block
-          absolute top-0 left-0 bg-gradient-to-br from-primaryColor to-secondaryColor opacity-30"/>
+          absolute top-0 left-0 bg-gradient-to-tl from-primaryColor to-secondaryColor opacity-10 md:opacity-30"/>
             <div  style={{
               position: "absolute",
               top: 0,
